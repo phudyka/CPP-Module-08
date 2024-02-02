@@ -6,17 +6,17 @@
 #    By: phudyka <phudyka@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/23 11:49:28 by phudyka           #+#    #+#              #
-#    Updated: 2024/02/01 16:32:43 by phudyka          ###   ########.fr        #
+#    Updated: 2024/02/02 10:26:32 by phudyka          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-TARGET = EasyFind
+TARGET = MutantStack
 
 CXX = c++
 
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 
-SRCS = main.cpp MutantStack.cpp
+SRCS = main.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
